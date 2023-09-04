@@ -7,17 +7,23 @@ pipeline {
     stages{
         stage("Build"){
             steps{
-                echo("hellow build")
+               echo("hellow build 1")
+               echo("hellow build 2")
+               echo("hellow build 3")
             }
         }
      stage("Test"){
             steps{
-                echo("hellow test")
+                echo("hellow test 1")
+                echo("hellow test 2")
+                echo("hellow test 3")
             }
         }
      stage("Deploy"){
             steps{
-                echo("hellow deploy")
+                 echo("hellow deploy 1")
+                 echo("hellow deploy 2")
+                 echo("hellow deploy 3")
             }
         }
     }
